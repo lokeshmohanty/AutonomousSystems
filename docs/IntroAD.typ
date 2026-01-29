@@ -1,4 +1,4 @@
-#set text(font: "Comic Neue", weight: 600)
+#set text(font: "Nunito", weight: 600)
 #show figure.caption: set text(.5em)
 #show table.cell: set text(size: .5em)
 
@@ -458,18 +458,8 @@ Most widely used datasets
 - Github Repository: #link("https://github.com/airexlab/AutonomousSystems")
 
 #figure(
-  grid(
-    columns: (1fr, 1fr),
-    gutter: 1pt,
-    // figure(
-    //   qrcode("https://github.com/airexlab/AutonomousSystems", options: (scale: 3.0)),
-    //   caption: [Our Github Repository: #link("https://github.com/airexlab/AutonomousSystems")]
-    // ),
-    figure(
-      qrcode("https://github.com/airexlab/AutonomousSystems", options: (scale: 3.0)),
-      caption: [Our Github Repository: #link("https://github.com/airexlab/AutonomousSystems")]
-    ),
-  ),
+  qrcode("https://github.com/airexlab/AutonomousSystems", options: (scale: 3.0)),
+  caption: [Our Github Repository: #link("https://github.com/airexlab/AutonomousSystems")]
 )
 
 
